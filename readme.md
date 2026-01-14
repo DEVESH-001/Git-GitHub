@@ -24,6 +24,11 @@
 - git config --global user.name "Your Name": Sets the global Git configuration for the user's name.
 - git config --global core.editor "code --wait" : Sets the default text editor for Git to Visual Studio Code.
 
+## Git Fetch & Pull
+
+- git fetch: Downloads new data from a remote repository but does not integrate it into the local repository. It updates the remote tracking branches.
+- git pull: Fetches new data from a remote repository and integrates it into the local repository(working directory). It is a combination of git fetch and git merge.
+
 ## Working with Branches
 
 - git branch: Lists all branches in the repository and indicates the current branch.
