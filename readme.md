@@ -22,3 +22,11 @@
 - git log --oneline: Displays a condensed version of the commit history, showing each commit on a single line with its abbreviated hash and commit message.
 - git config --global user.name "Your Name": Sets the global Git configuration for the user's name.
 - git config --global core.editor "code --wait" : Sets the default text editor for Git to Visual Studio Code.
+
+## Working with Branches
+
+- git branch: Lists all branches in the repository and indicates the current branch.
+- git branch feature-branch: Creates a new branch named "feature-branch".
+- git checkout feature-branch: Switches to the branch named "feature-branch".
+- git checkout -b feature-branch: Creates and switches to a new branch named "feature-branch".
+- git merge feature-branch: Merges the changes from "feature-branch" into the current branch.
