@@ -30,3 +30,16 @@
 - git checkout feature-branch: Switches to the branch named "feature-branch".
 - git checkout -b feature-branch: Creates and switches to a new branch named "feature-branch".
 - git merge feature-branch: Merges the changes from "feature-branch" into the current branch.
+
+## Git Diff & Stash
+
+- git diff: Shows the differences between the working directory and the staging area or between two commits.
+- git stash: Temporarily saves changes in the working directory that are not yet ready to be committed.
+- git stash pop: Applies the most recent stashed changes and removes them from the stash list.
+- git stash list: Lists all stashed changes.
+- git diff --staged: Shows the differences between the staged changes and the last commit.
+
+`-- , ++`
+
+- -- indicates the file 1 before modification
+- ++ indicates the file 1 after modification
