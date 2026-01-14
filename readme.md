@@ -30,6 +30,7 @@
 - git checkout feature-branch: Switches to the branch named "feature-branch".
 - git checkout -b feature-branch: Creates and switches to a new branch named "feature-branch".
 - git merge feature-branch: Merges the changes from "feature-branch" into the current branch.
+- git switch -c bugfix : Creates and switches to a new branch named "bugfix".(similar to git checkout -b)
 
 ## Git Diff & Stash
 
@@ -38,6 +39,10 @@
 - git stash pop: Applies the most recent stashed changes and removes them from the stash list.
 - git stash list: Lists all stashed changes.
 - git diff --staged: Shows the differences between the staged changes and the last commit.
+
+- git stash : Stashes the current changes in the working directory(stashes means putting aside temporarily)
+- git stash pop : reapplies the stashed changes to the working directory and removes them from the stash list.
+- git stash list : lists all the stashed changes.
 
 `-- , ++`
 
