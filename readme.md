@@ -16,6 +16,7 @@
 - git status: Show the current status of the repository, including changes to be committed, untracked files, and modified files.
 - commit : its liks a check-point, it saves the current state of the project.
 - git add one.txt: Stages the file "one.txt" for the next commit, only one.txt will be included in the commit.
+- git commit -am "message" : adding and committing in one step for modified files only.
 - git add . : Stages all changes (new, modified, and deleted files) in
 - git commit -m "Initial commit": Commits the staged changes with the message "Initial commit".
 - git log: Displays the commit history of the repository, showing details such as commit hashes, authors, dates, and commit messages.
